@@ -1,0 +1,60 @@
+/* Progress Bar Color */
+.progress-container.progress-primary .progress {
+    background: #050505;
+  }
+  /* Progress Bar Color Main */
+  .progress-container.progress-primary .progress-bar {
+    background: #006cd1;
+  }
+
+/*page header tint/color this can set to green or such 
+.page-header {
+  
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(44, 44, 44, 0.2)), to(rgba(55, 140, 63, 0.6)));
+  background: linear-gradient(0deg, rgba(44, 44, 44, 0.2), rgba(55, 140, 63, 0.6));
+  
+}
+*/
+
+/*This is the main color for the buttons*/
+.btn-primary {
+    background-color: rgba(252, 7, 7, 0.171);
+    color:;
+  }
+
+
+  /*This is the class for hover of buttons, this can be used to change the colors of the hover over buttons */
+.btn-primary:hover {
+  background-color: #40a249;
+  color: #FFFFFF;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+/*This is to make the header background little blurred or to change other attributes */
+.page-header-image{
+    filter: blur(4.5px);
+    -webkit-filter: blur(7.3px)
+  
+  }
+
+/*this is the color circles that come from profile picture, you can change the border value to get a diffrent color */
+ .cc-profile-image a:before {
+    content: "";
+    border: 15px solid rgba(255, 7, 7, 0.507);
+    border-radius: 50%;
+    height: 180px;
+    width: 180px;
+    position: absolute;
+    left: 0;
+    -webkit-animation: pulsate 2.5s ease-out;
+            animation: pulsate 2.5s ease-out;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    opacity: 0.0;
+    z-index: 99;
+  }
+
+  #profilimg{
+    transform: rotate(90deg);
+  }
